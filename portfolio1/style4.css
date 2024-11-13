@@ -1,0 +1,59 @@
+:root{
+    --img-width: 700px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    background-image: url(image/landscape.jpg);
+    background-size: cover;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: red;
+}
+   
+nav{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 50px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar .nav-links ul {
+    display: flex;
+}
+
+.navbar .nav-links ul li {
+    margin: 25px;
+}
+
+.competence-titre{
+font-size: 40px;
+text-align:center;
+width: 100%;
+
+}
+
+img{
+    width: var(--img-width);    
+    height: calc((var(--img-width) / 2) * 3);
+
+}
