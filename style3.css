@@ -1,0 +1,73 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    background-image: url(image/landscape.jpg);
+    background-size: cover;
+}
+
+.navbar {
+    position: relative;
+    margin: 50px;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    left : 100px;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar .nav-links ul {
+    display: flex;
+}
+
+.navbar .nav-links ul li {
+    margin: 25px;
+}
+
+h2 {
+    color: red;
+    font-weight: bolder;
+}
+
+
+h2 {
+text-align: center;
+
+
+} 
+
+.text{
+ color: white;
+
+}
+h1{
+    color: red;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+.content{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.content .left,
+.content .right{
+    width: 35%;
+    height: 400px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h3{
+color: aliceblue;
+}
