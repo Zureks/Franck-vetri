@@ -1,9 +1,19 @@
+*{
+    margin: 0; 
+    padding: 0; 
+
+
+}
+
+
 body {
     height: 100vh;
     width: 100vw;
     background-color: black;
-    background-image: url(image/landscape.jpg);
     background-size: cover;
+    background-image: url(image/landscape.jpg);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
 }
 
 .navbar {
@@ -70,4 +80,6 @@ h1{
 }
 h3{
 color: aliceblue;
+line-height: 300%;
+
 }

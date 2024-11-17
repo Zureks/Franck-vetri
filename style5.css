@@ -1,16 +1,23 @@
+
+
+
+
 :root{
     --img-width: 700px;
 }
 
 
 
-body {
-    height: 100vh;
-    width: 100vw;
+html{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
-background-color: rgba(255,255,255,0.5);
-    
+    background-image: url(image/landscape.jpg);
+    background-size: 100% 100%;
+
+
+
 }
 
 .navbar {
@@ -25,7 +32,7 @@ background-color: rgba(255,255,255,0.5);
 }
 
 .navbar a {
-    color: black;
+    color: white;
 }
 
 .navbar .nav-links ul {
@@ -57,8 +64,29 @@ h3 {
     text-align: center;
 }
 .text{
- color: black;
+ color: white;
 text-align: center;
+}
+
+.content{
+    
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.content .left,
+.content .right{
+    width: 35%;
+    height: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h2{ font-weight: bold;
+    line-height: 1;
 }
 
 .content{
@@ -71,9 +99,32 @@ text-align: center;
 .content .right{
     width: 35%;
     height: 400px;
-    color: black;
+    color: aliceblue;
     display: flex;
     flex-direction: column;
     align-items: center;
 
+}
+
+.btn-blue {
+    background-color: #007BFF; 
+    color: white; 
+    border: none; 
+    padding: 12px 20px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+.btn-blue:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05); 
+}
+
+.btn-blue:active {
+    background-color: #003d80; 
+    transform: scale(1); 
 }
