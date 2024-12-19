@@ -51,7 +51,7 @@
           const templateID = 'template_eei5jv8';
           const userID = '0vlU3On_cp64JIA-X';
     
-          // Collecte des données du formulaire
+          
           const templateParams = {
             username: document.getElementById('name').value,
             email: document.getElementById('email').value,
@@ -65,7 +65,6 @@
             template_params: templateParams
           };
     
-          // Envoi de la requête avec Fetch API
           fetch('https://api.emailjs.com/api/v1.0/email/send', {
             method: 'POST',
             headers: {
